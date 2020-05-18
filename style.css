@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.carousel img {
+	margin: auto;
+}
+
+.carousel-inner>.item>img {
+    height: 400px;
+    width: 1000px;
+}
+
+.tab-pane {
+  padding: 10px;
+  display: inline-block;
+}
